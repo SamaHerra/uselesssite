@@ -13,13 +13,13 @@
     function randomsite(){
     var rand = Math.floor(Math.random() * 11);
     document.getElementById("test").innerHTML = rand;
-    if (rand >= 6){
+    if (rand <= 6){
         window.location = 'https://ihasabucket.com/'
     }
     if (rand == 5){
         window.location = 'https://pointerpointer.com'
     }
-    if (rand <= 4){
+    if (rand >= 4){
         window.location = 'https://ihasabucket.com/'
     }
     else {
