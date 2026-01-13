@@ -14,7 +14,7 @@
 
     <h1>Useless</h1>
     <div id="div55">
-        <button onclick="randomsite()"><p>Random</p></button>
+        <button onclick="randomsite()" class="button2"><p>Random</p></button>
     </div>
     <script>
         function randomsite() {
@@ -55,6 +55,39 @@
         else {
             return
         }  }    
+    </script>
+
+    <h2>Lorem ipsum dolor sit amet, Consectetur1 adipiscing elit. Donec massa est, porta at eros eget, varius euismod nulla. Nam ornare imperdiet nibh vulputate varius. <br>Etiam p7haretra dui vel lacinia imperdiet. Proin tempus ia7culis nibh quis lacinia. Curabitur sit amet eros interdum enim venenatis luctus <br>sit amet sed nisl. Proin eu sem sollicitudin, laoreet quam vel, iaculis orci. Praesent accumsan lorem eu massa semper ultrices. Nulla placerat neque augue, nec dictum urna scelerisque ut. Vivamus interdum in ligula sit amet scelerisque. N9unc non porttitor mauris. Integer consectetur diam tristique, facilisis nibh vel, dictum<br> lectus. In mi magna, aliquet a velit rutrum, efficitur mattis orci0.
+
+</h2>
+
+    <label for="Secret">Enter the code</label>
+
+    <input
+    type="password"
+    id="Secret"
+    name="Secret"
+    required
+    minlength="0"
+    maxlength="10"
+    size="10" />
+    <button onclick="checkText()">Submit</button>
+
+    <p class="hidden" id="hiddenText" style="display:none;">
+     There is a landmine under your house!
+    </p>
+
+    <script>
+    function checkText() {
+        const input = document.getElementById("Secret").value;
+        const hidden = document.getElementById("hiddenText");
+
+        if (input === "177890") {
+            hidden.style.display = "block";
+        } else {
+            hidden.style.display = "none";
+        }
+    }
     </script>
 </body>
 </html>

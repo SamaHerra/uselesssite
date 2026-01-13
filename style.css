@@ -1,4 +1,4 @@
-button{
+.button2{
 color: darkmagenta;
 border: 20px;
 border-left-color: aqua;
@@ -35,4 +35,16 @@ h1{
     position: absolute;
     height: 200px;
 
+}
+
+h2{
+    color: azure;
+}
+
+.hidden{
+    color: white;
+}
+
+label{
+    color:white;
 }
