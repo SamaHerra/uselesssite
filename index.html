@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Useless</h1>
-    <h1 id="test"></h1>
-    <button onclick="randomsite()">test</button>
+    <div id="div55">
+    <button onclick="randomsite()"><p>Random</p></button>
+    </div>
     <script>
         function randomsite(){
         var rand = Math.floor(Math.random() * 11);
-        document.getElementById("test").innerHTML = rand;
         if (rand == 6){
             window.location = 'https://puginarug.com/'
         }

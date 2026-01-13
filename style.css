@@ -1,0 +1,38 @@
+button{
+color: darkmagenta;
+border: 20px;
+border-left-color: aqua;
+border-style:groove;
+border-radius: 5%;
+border-right-color: blueviolet;
+border-top-color: blue;
+border-bottom-color: darkblue;
+text-align: center;
+height: 75px;
+
+}
+
+p{
+    fill: darkslateblue;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+    
+}
+body{
+    background-color: black;
+}
+
+h1{
+    color: azure;
+    accent-color:inherit;
+    flood-color: rgb(27, 27, 27);
+    text-align: center;
+}
+
+.div55{
+    background-color: black;
+    position: absolute;
+    height: 200px;
+
+}
