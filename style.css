@@ -1,12 +1,11 @@
 .button2{
 color: darkmagenta;
 border: 20px;
-border-left-color: aqua;
+border-bottom-color: aqua;
+border-color: blueviolet;
 border-style:groove;
 border-radius: 5%;
-border-right-color: blueviolet;
-border-top-color: blue;
-border-bottom-color: darkblue;
+border-width: 10px;
 text-align: center;
 height: 75px;
 
@@ -20,7 +19,7 @@ p{
     
 }
 body{
-    background-color: black;
+    background-color: #000000;
 }
 
 h1{
@@ -32,13 +31,17 @@ h1{
 
 .div55{
     background-color: black;
+    margin: 0;
     position: absolute;
-    height: 200px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 
 }
 
 h2{
-    color: azure;
+    color: #f0ffff;
 }
 
 .hidden{
@@ -51,4 +54,24 @@ label{
 
 h4{   
     color:white;
+}
+
+.buttton3{
+    height: 200px;
+  position: relative;
+
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  height: 50px;
+  position: relative;
 }
