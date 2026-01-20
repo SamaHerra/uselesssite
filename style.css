@@ -11,9 +11,18 @@ height: 75px;
 
 }
 
-p{
+.p1{
     fill: darkslateblue;
     color: rgb(0, 0, 0);
+    text-align: center;
+
+    
+}
+
+
+.p2{
+    fill: darkslateblue;
+    color: rgb(255, 246, 246);
     text-align: center;
 
     
@@ -74,4 +83,8 @@ h4{
 .container {
   height: 50px;
   position: relative;
+}
+
+small{
+color: rgb(255, 0, 0);
 }
